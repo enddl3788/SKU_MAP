@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_main"
+        android:label="SKU MAP"
+        android:roundIcon="@mipmap/ic_main_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Team_project"
+        android:screenOrientation="portrait"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_parkingGuide"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_hsh"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_jl"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_hsjb"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_kn"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_js"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_ya"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_sk"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_su"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_uch"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_book"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.Info.Info_copy"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.ImageActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.NoticeActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.linkActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.yebin.SKUMAP.MapviewActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.yebin.SKUMAP.LoadingActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yebin.SKUMAP.StudentCafeteriaActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.StaffCafeteriaActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Dialog"/>
+        <activity
+            android:name="com.yebin.SKUMAP.CafeteriaActivity"
+            android:exported="false"/>
+        <activity
+            android:name="com.yebin.SKUMAP.menuActivity"
+            android:exported="false"/>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="6a9511ef1c82bcacb96365c87684770e"/>
+    </application>
+
+</manifest>

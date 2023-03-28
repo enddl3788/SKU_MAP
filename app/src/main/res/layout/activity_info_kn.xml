@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#5D6DBE"
+                android:gravity="center"
+                android:text="기념관"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="15dp"
+                android:textColor="#FFFFFF" />
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="1층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="오딧세이21, 학생쉼터"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="2층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="홍대실홀, 음악학부 실습실"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="3층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="대학극장, 언어교육원, 국제교류과,"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="연극영화학부 기자재실"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="4층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="에스테틱실, 헤어디자인실, 대회의실,"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="메이크업실, 교수학습지원센터"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="5층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="대강당, 교목실, 미용학과 실습실"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="특이사항"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <!--Etc Contents -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="[1층] 베이커리, 무한의 계단"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

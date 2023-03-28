@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "330987782656",
+    "project_id": "sku-map-1ad94",
+    "storage_bucket": "sku-map-1ad94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330987782656:android:2ebdb632b49ed93f3dcee5",
+        "android_client_info": {
+          "package_name": "com.yebin.SKUMAP"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330987782656-fc6bhoub2mett04t79s16qhurj9eqvqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yebin.SKUMAP",
+            "certificate_hash": "fc76c6b1378920cef700b7b5bb56397ad162962e"
+          }
+        },
+        {
+          "client_id": "330987782656-j57idd2kdothkq2ft6j242g4qru70aia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALG06y_WjTkVRSXfgJBEvNiIV2tIjd83E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330987782656-j57idd2kdothkq2ft6j242g4qru70aia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="지금 우리학교는?"
+        android:textColor="#5D6DBE"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="온도 : 0°C 강수확률 : 0%"
+        android:textColor="#5D6DBE"
+        android:textSize="20sp"
+        android:gravity="end"
+        android:id="@+id/menu_temp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu_btn_001"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/btn_menu_to_mapview"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu_btn_002"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/btn_menu_to_cafeteria"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu_btn_003"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/btn_menu_to_bus"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu_btn_004"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/btn_menu_to_link"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu_btn_005"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/btn_menu_to_parking"
+            tools:ignore="ContentDescription"/>
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/menu_btn_006"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/btn_menu_to_option"
+            tools:ignore="ContentDescription"/>
+
+    </LinearLayout>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="학생식당 : "
+                android:textColor="#5D6DBE" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="기념관 빵집 : "
+                android:textColor="#5D6DBE" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="학술정보관 카페 : "
+                android:textColor="#5D6DBE" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="미운영"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="미운영"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="미운영"
+                android:textColor="#ff0000" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="교직원식당 : "
+                android:textColor="#5D6DBE"
+                android:gravity="end"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="기념관 카페 : "
+                android:textColor="#5D6DBE"
+                android:gravity="end"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="학생회관 카페 : "
+                android:textColor="#5D6DBE"
+                android:gravity="end"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미운영"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미운영"
+                android:textColor="#ff0000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="미운영"
+                android:textColor="#ff0000" />
+        </LinearLayout>
+    </LinearLayout>
+-->
+</LinearLayout>

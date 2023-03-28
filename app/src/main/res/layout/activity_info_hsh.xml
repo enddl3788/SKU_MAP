@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:stretchColumns="*">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#5D6DBE"
+                android:gravity="center"
+                android:text="학생회관"
+                android:textColor="#FFFFFF"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="15dp"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="1층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="학생지원과, 잡카페, 사회봉사센터, 글로벌라운지"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="2층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="총학생회, 대의원회, 보건진료소"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="3층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="헬스장, 무도실, 동아리실"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="4층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="체육관, 체육교육과 행정실"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="5층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="체육관"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="특이사항"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <!--Etc Contents -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="헬스장 재학생 이용, 보건실에서 인바디 검사 가능"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <!--Etc Contents -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="[1층] 카페와 테이블 있음"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <!--Etc Contents -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="[4층] 영암관이나 중생관하고 연결"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

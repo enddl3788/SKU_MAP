@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[ 새소식 바로보기 ]"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="#9FA9D8"
+        android:textColor="@color/white"
+        android:id="@+id/tv_notice"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7">
+        <RelativeLayout
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end|bottom"
+            android:orientation="vertical">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btn_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:contentDescription="맵타입"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/map_btn_003"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btn_reset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:contentDescription="원위치"
+                android:backgroundTint="@color/white"
+                android:src="@drawable/map_btn_002"
+                android:scaleType="fitCenter"/>
+
+        </LinearLayout>
+    </FrameLayout>
+<!--
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:background="@color/white_gray"
+        android:id="@+id/list_topBar">
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+
+            android:id="@+id/list_exit"
+            android:src="@drawable/btn_list_exit"
+            android:scaleType="fitCenter"
+            android:backgroundTint="@color/white_gray"/>
+    </LinearLayout>
+-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:id="@+id/sv_dijkstra"
+        android:fillViewport="true"
+        android:background="#ffffff">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="#9FA9D8"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:gravity="center"
+                        android:text="출발지점 선택" />
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/s_main_start"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:background="#9FA9D8"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="도착지점 선택"
+                        android:gravity="center"
+                        android:background="@color/white"/>
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/s_main_end"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="소요시간 계산"
+                android:layout_margin="5dp"
+                android:backgroundTint="#9FA9D8"
+                android:id="@+id/btn_main_result"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="소요시간은 걸어서 도착하는 기준입니다!"
+                android:gravity="center"
+                android:textSize="12dp"
+                android:textColor="#ff0000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="예측 소요시간 : "
+                android:gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/tv_main_result"
+                android:layout_margin="5dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="경로 : "
+                android:gravity="center"
+                android:textSize="20dp"
+                android:id="@+id/tv_main_route"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:fillViewport="true"
+        android:id="@+id/sv_facility">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/facility_list" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/main_btn_001"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/btn_main_to_facility"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/main_btn_002"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/btn_main_to_dijkstra"/>
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/main_btn_003"
+            android:background="@color/white"
+            android:layout_weight="1"
+            android:id="@+id/btn_main_to_menu"/>
+    </LinearLayout>
+</LinearLayout>

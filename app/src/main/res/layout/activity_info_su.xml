@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="*"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#5D6DBE"
+                android:gravity="center"
+                android:text="신유관"
+                android:textColor="#FFFFFF"
+                android:autoSizeTextType="uniform"
+                android:autoSizeMaxTextSize="15dp"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:gravity="center"
+                    android:text="지하1층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="기관실, 전기실"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="1층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="세미나실, 기숙사"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="2층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="기숙사, 식당"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="3층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="세면장, 세탁실, 샤워장, 기숙사, 기숙사행정실"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="4층"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="기숙사, 휴게실"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#959595">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="특이사항"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+
+                <!--Etc Contents -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:background="#FFFFFF"
+                    android:gravity="center"
+                    android:text="지옥의 언덕, 기숙사에 산다면 자주 이용"
+                    android:textColor="#171717"
+                    android:autoSizeTextType="uniform"
+                    android:autoSizeMaxTextSize="15dp" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

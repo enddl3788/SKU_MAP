@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cafeteria_001"
+        android:background="@color/white"
+        android:layout_weight="1"
+        android:id="@+id/btn_cafeteria_student"/>
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="동계방학 운영시간\n학생식당:11시00분~15시00분\n교직원식당:11시30분~13시30분\n\'학생식당\'은 방학중 정보가 업데이트 되지 않습니다."
+        android:gravity="center"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="15dp"
+        android:textColor="#ff0000"/>
+    -->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cafeteria_002"
+        android:background="@color/white"
+        android:layout_weight="1"
+        android:id="@+id/btn_cafeteria_staff"/>
+
+</LinearLayout>
