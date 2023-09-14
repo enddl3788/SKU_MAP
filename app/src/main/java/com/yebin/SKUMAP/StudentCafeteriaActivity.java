@@ -155,29 +155,34 @@ public class StudentCafeteriaActivity extends Activity {
         @Override
         public void handleMessage(Message msg) {
             Bundle bundle = msg.getData();
-            student_cafeteria_mon.setText(bundle.getString("mon"));                      //이런식으로 View를 메인 쓰레드에서 뿌려줘야한다.
-            student_cafeteria_tue.setText(bundle.getString("tue"));
-            student_cafeteria_wed.setText(bundle.getString("wed"));
-            student_cafeteria_thu.setText(bundle.getString("thu"));
-            student_cafeteria_fri.setText(bundle.getString("fri"));
+            student_cafeteria_mon.setText(replaceSpacesWithNewLine(bundle.getString("mon")));
+            student_cafeteria_tue.setText(replaceSpacesWithNewLine(bundle.getString("tue")));
+            student_cafeteria_wed.setText(replaceSpacesWithNewLine(bundle.getString("wed")));
+            student_cafeteria_thu.setText(replaceSpacesWithNewLine(bundle.getString("thu")));
+            student_cafeteria_fri.setText(replaceSpacesWithNewLine(bundle.getString("fri")));
 
-            RN_mon.setText(bundle.getString("RN_mon"));
-            RN_tue.setText(bundle.getString("RN_tue"));
-            RN_wed.setText(bundle.getString("RN_wed"));
-            RN_thu.setText(bundle.getString("RN_thu"));
-            RN_fri.setText(bundle.getString("RN_fri"));
+            RN_mon.setText(replaceSpacesWithNewLine(bundle.getString("RN_mon")));
+            RN_tue.setText(replaceSpacesWithNewLine(bundle.getString("RN_tue")));
+            RN_wed.setText(replaceSpacesWithNewLine(bundle.getString("RN_wed")));
+            RN_thu.setText(replaceSpacesWithNewLine(bundle.getString("RN_thu")));
+            RN_fri.setText(replaceSpacesWithNewLine(bundle.getString("RN_fri")));
 
-            Tb_mon.setText(bundle.getString("Tb_mon"));
-            Tb_tue.setText(bundle.getString("Tb_tue"));
-            Tb_wed.setText(bundle.getString("Tb_wed"));
-            Tb_thu.setText(bundle.getString("Tb_thu"));
-            Tb_fri.setText(bundle.getString("Tb_fri"));
+            Tb_mon.setText(replaceSpacesWithNewLine(bundle.getString("Tb_mon")));
+            Tb_tue.setText(replaceSpacesWithNewLine(bundle.getString("Tb_tue")));
+            Tb_wed.setText(replaceSpacesWithNewLine(bundle.getString("Tb_wed")));
+            Tb_thu.setText(replaceSpacesWithNewLine(bundle.getString("Tb_thu")));
+            Tb_fri.setText(replaceSpacesWithNewLine(bundle.getString("Tb_fri")));
 
-            FR_mon.setText(bundle.getString("FR_mon"));
-            FR_tue.setText(bundle.getString("FR_tue"));
-            FR_wed.setText(bundle.getString("FR_wed"));
-            FR_thu.setText(bundle.getString("FR_thu"));
-            FR_fri.setText(bundle.getString("FR_fri"));
+            FR_mon.setText(replaceSpacesWithNewLine(bundle.getString("FR_mon")));
+            FR_tue.setText(replaceSpacesWithNewLine(bundle.getString("FR_tue")));
+            FR_wed.setText(replaceSpacesWithNewLine(bundle.getString("FR_wed")));
+            FR_thu.setText(replaceSpacesWithNewLine(bundle.getString("FR_thu")));
+            FR_fri.setText(replaceSpacesWithNewLine(bundle.getString("FR_fri")));
         }
     };
+
+    public String replaceSpacesWithNewLine(String inputString) {
+        String outputString = inputString.replaceAll("\\s+", "\n");
+        return outputString;
+    }
 }

@@ -70,7 +70,7 @@
             android:exported="false"
             android:theme="@android:style/Theme.Dialog"/>
         <activity
-            android:name="com.yebin.SKUMAP.NoticeActivity"
+            android:name="com.yebin.SKUMAP.NoticeList.NoticeActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Dialog"/>
         <activity

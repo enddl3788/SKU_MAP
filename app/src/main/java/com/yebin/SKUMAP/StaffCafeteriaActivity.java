@@ -128,23 +128,27 @@ public class StaffCafeteriaActivity extends Activity {
         @Override
         public void handleMessage(Message msg) {
             Bundle bundle = msg.getData();
-            staff_cafeteria_mon.setText(bundle.getString("mon"));                      //이런식으로 View를 메인 쓰레드에서 뿌려줘야한다.
-            staff_cafeteria_tue.setText(bundle.getString("tue"));
-            staff_cafeteria_wed.setText(bundle.getString("wed"));
-            staff_cafeteria_thu.setText(bundle.getString("thu"));
-            staff_cafeteria_fri.setText(bundle.getString("fri"));
+            staff_cafeteria_mon.setText(replaceSpacesWithNewLine(bundle.getString("mon")));
+            staff_cafeteria_tue.setText(replaceSpacesWithNewLine(bundle.getString("tue")));
+            staff_cafeteria_wed.setText(replaceSpacesWithNewLine(bundle.getString("wed")));
+            staff_cafeteria_thu.setText(replaceSpacesWithNewLine(bundle.getString("thu")));
+            staff_cafeteria_fri.setText(replaceSpacesWithNewLine(bundle.getString("fri")));
 
-            lunch_mon.setText(bundle.getString("lunch_mon"));
-            lunch_tue.setText(bundle.getString("lunch_tue"));
-            lunch_wed.setText(bundle.getString("lunch_wed"));
-            lunch_thu.setText(bundle.getString("lunch_thu"));
-            lunch_fri.setText(bundle.getString("lunch_fri"));
+            lunch_mon.setText(replaceSpacesWithNewLine(bundle.getString("lunch_mon")));
+            lunch_tue.setText(replaceSpacesWithNewLine(bundle.getString("lunch_tue")));
+            lunch_wed.setText(replaceSpacesWithNewLine(bundle.getString("lunch_wed")));
+            lunch_thu.setText(replaceSpacesWithNewLine(bundle.getString("lunch_thu")));
+            lunch_fri.setText(replaceSpacesWithNewLine(bundle.getString("lunch_fri")));
 
-            dinner_mon.setText(bundle.getString("dinner_mon"));
-            dinner_tue.setText(bundle.getString("dinner_tue"));
-            dinner_wed.setText(bundle.getString("dinner_wed"));
-            dinner_thu.setText(bundle.getString("dinner_thu"));
-            dinner_fri.setText(bundle.getString("dinner_fri"));
+            dinner_mon.setText(replaceSpacesWithNewLine(bundle.getString("dinner_mon")));
+            dinner_tue.setText(replaceSpacesWithNewLine(bundle.getString("dinner_tue")));
+            dinner_wed.setText(replaceSpacesWithNewLine(bundle.getString("dinner_wed")));
+            dinner_thu.setText(replaceSpacesWithNewLine(bundle.getString("dinner_thu")));
+            dinner_fri.setText(replaceSpacesWithNewLine(bundle.getString("dinner_fri")));
         }
     };
+    public String replaceSpacesWithNewLine(String inputString) {
+        String outputString = inputString.replaceAll("\\s+", "\n");
+        return outputString;
+    }
 }

@@ -19,7 +19,6 @@ import android.widget.RelativeLayout;
 import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -37,6 +36,7 @@ import com.yebin.SKUMAP.Info.Info_uch;
 import com.yebin.SKUMAP.Info.Info_ya;
 import com.yebin.SKUMAP.MapviewList.ListItem;
 import com.yebin.SKUMAP.MapviewList.ListItemAdapter;
+import com.yebin.SKUMAP.NoticeList.NoticeActivity;
 
 import net.daum.mf.map.api.MapPOIItem;
 import net.daum.mf.map.api.MapPoint;
@@ -116,8 +116,6 @@ public class MapviewActivity extends AppCompatActivity {
         sv_onoff[1] = 0;
         setParam(0,sv_facility);
         setParam(0,sv_dijkstra);
-
-        Toast.makeText(MapviewActivity.this,"VERSION 7, 2023.01.20", Toast.LENGTH_SHORT).show();
 
         Dijkstra d = new Dijkstra(17);
         d.input("a","b",60);

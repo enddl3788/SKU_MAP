@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:scaleType="fitCenter"
-        android:id="@+id/iv_notice"
-        android:layout_weight="1"
-        android:backgroundTint="@android:color/transparent"/>
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:fillViewport="true"
-        android:background="#ffffff"
-        android:layout_weight="1">
+    android:background="@color/white"
+    android:layout_gravity="center">
         <TextView
             android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로딩중..."
+            android:gravity="center"
+            android:textSize="30dp"
+            android:background="#9FA9D8"
+            android:textColor="@color/white"
+            android:id="@+id/noticeTitle"/>
+        <ListView
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="테스트 이미지입니다."
-            android:id="@+id/tv_notice"
-            android:autoSizeTextType="uniform"
-            android:autoSizeMaxTextSize="25dp"
-            android:textColor="@color/black"
-            android:gravity="center"/>
-    </ScrollView>
+            android:id="@+id/notice_list"/>
 </LinearLayout>

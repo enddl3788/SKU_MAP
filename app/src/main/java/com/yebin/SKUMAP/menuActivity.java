@@ -18,11 +18,14 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 public class menuActivity extends AppCompatActivity {
 
     String crawlingText = "";
-    private TextView menu_temp;
+    private TextView menu_temp, menu_today;
     private ImageButton btn_menu_to_mapview, btn_menu_to_cafeteria, btn_menu_to_bus, btn_menu_to_link, btn_menu_to_parking, btn_menu_to_option;
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +60,13 @@ public class menuActivity extends AppCompatActivity {
                 }
             }
         }.start();
+
+        // 현재 날짜를 가져오고 원하는 형식으로 포맷합니다.
+        SimpleDateFormat dateFormat = new SimpleDateFormat("MM월 dd일 E요일", Locale.getDefault());
+        String currentDate = dateFormat.format(new Date());
+
+        menu_today = findViewById(R.id.menu_today);
+        menu_today.setText(currentDate);
 
         btn_menu_to_mapview = findViewById(R.id.btn_menu_to_mapview);
         btn_menu_to_mapview.setOnClickListener(new View.OnClickListener() {

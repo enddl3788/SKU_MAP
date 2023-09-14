@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="[ 새소식 바로보기 ]"
+        android:text="학사일정"
         android:textSize="15dp"
         android:padding="5dp"
         android:gravity="center"
@@ -119,7 +119,7 @@
                     <Spinner
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:id="@+id/s_main_end"/>
+                        android:id="@+id/s_main_end" />
                 </LinearLayout>
             </LinearLayout>
             <Button
