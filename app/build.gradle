@@ -9,14 +9,14 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.yebin.SKUMAP"
         minSdk 21
-        targetSdk 31
-        versionCode 8
-        versionName "version 8"
+        targetSdk 33
+        versionCode 9
+        versionName "version 9"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

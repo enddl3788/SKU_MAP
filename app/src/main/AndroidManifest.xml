@@ -58,10 +58,6 @@
             android:exported="false"
             android:theme="@android:style/Theme.Dialog"/>
         <activity
-            android:name="com.yebin.SKUMAP.Info.Info_book"
-            android:exported="false"
-            android:theme="@android:style/Theme.Dialog"/>
-        <activity
             android:name="com.yebin.SKUMAP.Info.Info_copy"
             android:exported="false"
             android:theme="@android:style/Theme.Dialog"/>

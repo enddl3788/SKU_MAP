@@ -23,7 +23,6 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.yebin.SKUMAP.Info.Info_book;
 import com.yebin.SKUMAP.Info.Info_copy;
 import com.yebin.SKUMAP.Info.Info_hsh;
 import com.yebin.SKUMAP.Info.Info_hsjb;
@@ -60,11 +59,11 @@ public class MapviewActivity extends AppCompatActivity {
 
     public MapView mapView;
     public static Context mContext;
-    public MapPOIItem jl,hsjb,kn,js,ya,hsh,su,uch,book,copy,sk,jm;
+    public MapPOIItem jl,hsjb,kn,js,ya,hsh,su,uch,copy,sk,jm;
 
-    public MapPoint[] facility_MP = {sk_mp, jl_mp, hsjb_mp, kn_mp, js_mp, ya_mp, hsh_mp, su_mp, uch_mp, book_mp, copy_mp};
-    public MapPOIItem[] facility_MPI = {sk, jl, hsjb, kn, js, ya, hsh, su, uch, book, copy};
-    public String[] facility = {"성결관","재림관","학술정보관","기념관","중생관","영암관","학생회관","신유관","유치원","서점","복사실"};
+    public MapPoint[] facility_MP = {sk_mp, jl_mp, hsjb_mp, kn_mp, js_mp, ya_mp, hsh_mp, su_mp, uch_mp, copy_mp};
+    public MapPOIItem[] facility_MPI = {sk, jl, hsjb, kn, js, ya, hsh, su, uch, copy};
+    public String[] facility = {"성결관","재림관","학술정보관","기념관","중생관","영암관","학생회관","신유관","유치원","복사실"};
     private String Tag = "MapviewActivity";
 
     private static final MapPoint jl_mp = MapPoint.mapPointWithGeoCoord(37.380333214324104, 126.92768699975836);
@@ -75,7 +74,6 @@ public class MapviewActivity extends AppCompatActivity {
     private static final MapPoint hsh_mp = MapPoint.mapPointWithGeoCoord(37.37952116986018, 126.92955923685072);
     private static final MapPoint su_mp = MapPoint.mapPointWithGeoCoord(37.380994547739455, 126.9261987669591);
     private static final MapPoint uch_mp = MapPoint.mapPointWithGeoCoord(37.38053214661729, 126.928852604042);
-    private static final MapPoint book_mp = MapPoint.mapPointWithGeoCoord(37.38172414754555, 126.92951483441296);
     private static final MapPoint copy_mp = MapPoint.mapPointWithGeoCoord(37.37994168983829, 126.9283789437447);
     private static final MapPoint sk_mp = MapPoint.mapPointWithGeoCoord(37.37985860929188, 126.92881654491944);
     private static final MapPoint jm_mp = MapPoint.mapPointWithGeoCoord(37.381270929916795, 126.9287587544689);
@@ -345,9 +343,6 @@ public class MapviewActivity extends AppCompatActivity {
             startActivity(intent);
         } else if (facility_C == "유치원") {
             Intent intent = new Intent(getApplicationContext(), Info_uch.class);
-            startActivity(intent);
-        } else if (facility_C == "서점") {
-            Intent intent = new Intent(getApplicationContext(), Info_book.class);
             startActivity(intent);
         } else if (facility_C == "복사실") {
             Intent intent = new Intent(getApplicationContext(), Info_copy.class);

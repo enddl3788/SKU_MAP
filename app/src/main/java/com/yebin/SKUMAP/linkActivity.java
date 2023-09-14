@@ -20,7 +20,7 @@ public class linkActivity extends AppCompatActivity {
         btn_link_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://sky.sungkyul.ac.kr:444/sso/index.jsp"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://sky.sungkyul.ac.kr:444/websquare/websquare.html?w2xPath=/scr/system/main.xml"));
                 startActivity(intent);
             }
         });
@@ -29,7 +29,7 @@ public class linkActivity extends AppCompatActivity {
         btn_link_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cc.sungkyul.ac.kr/ksso/sso_index.php"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://cc.sungkyul.ac.kr/login.php?"));
                 startActivity(intent);
             }
         });
@@ -38,7 +38,7 @@ public class linkActivity extends AppCompatActivity {
         btn_link_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.sungkyul.ac.kr/portalFnct/skukr/gSuite.do"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://mail.sungkyul.ac.kr/"));
                 startActivity(intent);
             }
         });
@@ -47,7 +47,7 @@ public class linkActivity extends AppCompatActivity {
         btn_link_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://success.sungkyul.ac.kr/sso/main.aspx"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://success.sungkyul.ac.kr/career/"));
                 startActivity(intent);
             }
         });
@@ -65,7 +65,7 @@ public class linkActivity extends AppCompatActivity {
         btn_link_6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://library.sungkyul.ac.kr/SKLIB/Login/sso/ksign/index.csp"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://library.sungkyul.ac.kr/lib/SlimaPlus.csp#link"));
                 startActivity(intent);
             }
         });
@@ -92,7 +92,7 @@ public class linkActivity extends AppCompatActivity {
         btn_link_9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://smart.sungkyul.ac.kr/atdc/sso"));
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.sungkyul.ac.kr/skukr/343/subview.do?"));
                 startActivity(intent);
             }
         });

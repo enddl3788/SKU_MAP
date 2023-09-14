@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="학사일정"
-        android:textSize="15dp"
+        android:textSize="18dp"
         android:padding="5dp"
         android:gravity="center"
         android:background="#9FA9D8"
